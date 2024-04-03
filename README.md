@@ -1,3 +1,3 @@
-# SITE PORTFOLIO
+# SITE MULHERES NA TECNOLOGIA
 
-![image](https://github.com/jpgercc/portfolio/assets/115590969/7c5deca8-7e9c-4739-92e2-249a2c0febfb)
+![image](https://github.com/jpgercc/A3/assets/115590969/6fac4136-957e-4adf-ac3f-6856d39ccbb9)
