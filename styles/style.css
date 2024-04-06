@@ -250,7 +250,7 @@ body{
       }
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 430px){
     .apresentacao__conteudo__titulo{
         font-size: 1.2rem;
     }
@@ -267,7 +267,7 @@ body{
         display: block;
         margin: 0 auto;
         width: 280px;
-        height: 315px;
+        height: 200px;
     }
     .rodape{
         font-size: 0.9rem;
