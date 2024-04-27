@@ -20,6 +20,13 @@
     }
 </style>
 
+<style>
+    #myPara {
+        display: none;
+    }
+</style>
+<!--      -->
+
 </head>
 
 <body>
@@ -28,7 +35,7 @@
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">HOME</a>
             <a class="cabecalho__menu__link" href="projetos.html">TEXTO</a>
-            <a class="cabecalho__menu__link" href="cv.html">CURIOSIDADES</a>
+            <a class="cabecalho__menu__link" href="https://www.youtube.com/watch?v=WWvIQJg4SCM&list=PLk2-NAaoUZyuJvwjdtvjMgutTvOLCAW9t">EXTRA</a>
         </nav>
         <br>
     </header>
@@ -38,27 +45,35 @@
             <h1 class="apresentacao__conteudo__titulo">Mulheres na <strong 
             class="titulo-destaque">TECNOLOGIA !
             </strong></h1>
+
             <p class="apresentacao__conteudo__texto">
                 <i>
                 <a class="link_nomes" href="https://pt.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a>, <a class="link_nomes" href="https://pt.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a>, <a class="link_nomes" href="https://en.wikipedia.org/wiki/Katherine_Johnson">Katherine Johnson</a>, <a class="link_nomes" href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)">Margaret Hamilton</a>, <a class="link_nomes" href="https://en.wikipedia.org/wiki/Radia_Perlman">Radia Perlman</a>, <a class="link_nomes" href="https://en.wikipedia.org/wiki/Shafi_Goldwasser">Shafi Goldwasser</a>...
                 <br><br>
                 </i>
+            
                 Quais destes nomes você conhece ? 🤔
                 <br><br>
+
                 No setor de tecnologia, a igualdade de gênero é um desafio. As mulheres na tecnologia têm contribuído com suas criações, mas o apagamento de figuras históricas fez com que poucas tivessem seus <a class="link" href="https://www.youtube.com/watch?v=pFptt7Cargc&list=RDpFptt7Cargc&index=2">nomes lembrados</a>.  A inclusão de mulheres é crucial para garantir diversidade, justiça, representatividade, soluções tecnológicas que reflitam diferentes perspectivas e necessidades sociais. 👩‍💻</p>
-            <div>
-            <h2 class="apresentação__links__subtitulo">Veja nosso vídeo:</h2>
+                <div>
+            <h2 class="apresentação__links__subtitulo">Veja nosso pitch:</h2>
             <iframe class="video" src="https://www.youtube.com/embed/seu_codigo_aqui"></iframe>
             </div>
 
         </section>
         <img class="shine-effect" src="./assets/teste.png" alt="Desenho de Ada Lovelace"> </img>
     </main>
-    <footer class="rodape"> 
+    <footer class="rodape">
+
+        <button class="myButton" onclick="myFunction()"><b>Clique aqui para ver os integrantes do grupo !</b></button>
+
+        <div id="myPara">
+
         <p><b>Integrantes do Grupo 2</b>:</p>
         <p>Guilherme Oliveira Reis
             <br>
-            Daniel das Chagas Ayres?
+            Daniel das Chagas Ayres
             <br>
             Elton Pereira
             <br>
@@ -68,20 +83,23 @@
             <br>
             Marcos Pilão Neto
             <br>
-            Mariana Ysabelle de Deus dos Santos?
+            Mariana Ysabelle de Deus dos Santos
             <br>
             Paloma Colasso da Silva
             <br>
             Pedro Henrique Gomes Pereira
             <br>
-            Victor Gabriel Medeiros Vieira?
+            Victor Gabriel Medeiros Vieira
             <br>
             Vitória dos Santos Marques Ferreira
             <br>
             João Pedro Máximo Borges da Silva
             <br>
-            João Pedro Gershenson Costa</p>
-    
+            João Pedro Gershenson Costa
+        </p>
+            </div>
+
+            <br><br>
               <i>  <a class="link_footer" href="https://github.com/jpgercc"> <p>    <i> Site desenvolvido por: João Pedro Gershenson Costa </i> 😘</p> </a>
               <div class="bug">
                 <hr>
@@ -91,8 +109,9 @@
                          onmouseover="this.src='./assets/deadbug.png'"
                          onmouseout="this.src='./assets/bug.png'">
                   </a>
-                  
+
             </div>
             </footer>
+            <script src="scripts.js"></script>
 </body>
 </html>
